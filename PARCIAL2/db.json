@@ -1,0 +1,54 @@
+{
+  "Anuncios": [
+    {
+      "titulo": "Ford Ka",
+      "transaccion": "Alquiler",
+      "descripcion": "Sin Uso",
+      "precio": "550000",
+      "puertas": "3",
+      "km": "140000",
+      "potencia": 63,
+      "id": 1624977376648
+    },
+    {
+      "titulo": "moto",
+      "transaccion": "Venta",
+      "descripcion": "gillera",
+      "precio": "1234",
+      "puertas": "1",
+      "km": "12434",
+      "potencia": "1",
+      "id": 66
+    },
+    {
+      "titulo": "moto",
+      "transaccion": "Venta",
+      "descripcion": "gillera",
+      "precio": "1234",
+      "puertas": "2",
+      "km": "12434",
+      "potencia": "1000",
+      "id": 64
+    },
+    {
+      "id": 1624977376649,
+      "titulo": "moto",
+      "transaccion": "Venta",
+      "descripcion": "Usado",
+      "precio": "550000",
+      "puertas": "1",
+      "km": "140000",
+      "potencia": "65"
+    },
+    {
+      "titulo": "moto",
+      "transaccion": "Venta",
+      "descripcion": "gillera",
+      "precio": "50000",
+      "puertas": "1",
+      "km": "12434",
+      "potencia": "1000",
+      "id": 1624977376650
+    }
+  ]
+}
