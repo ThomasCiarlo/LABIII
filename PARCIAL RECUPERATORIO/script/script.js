@@ -52,14 +52,18 @@ function handlerSubmit(e)
       }
     })
 
-
+    agregarSpinner();
+    setTimeout(() => {
     const AnuncioEditado = new Anuncio_Auto(frm.id.value,Titulo,Transaccion,Descripcion,Precio,Puertas,KMS,Potencia,combustible);
-    
     if(confirm("confirma modificacion")){
-    modificarAnuncio(AnuncioEditado);
-    almacernaDatos(Anuncios);
-    }   
-    limpiarFormulario(frm);
+      modificarAnuncio(AnuncioEditado);
+      almacernaDatos(Anuncios);
+      limpiarFormulario(frm);
+      } 
+    eliminarSpinner()},2000)
+    
+  
+   
    }
     else{
 
@@ -94,13 +98,16 @@ function handlerSubmit(e)
       }
     })
       
+    agregarSpinner();
+    setTimeout(() => {
       if(!falta){
-        if(confirm("confirma modificacion")){
+        if(confirm("confirma Inserccion")){
       const nuevoAnuncio = new Anuncio_Auto(Date.now(),Titulo,Transaccion,Descripcion,Precio,Puertas,KMS,Potencia,combustible);     
       altaAnuncio(nuevoAnuncio);
       limpiarFormulario(frm);
         }
       }
+       eliminarSpinner()},2000)
 }
 }
 
