@@ -1,0 +1,124 @@
+body
+{
+    background-color:white;
+    width:960px;
+    margin:auto;
+    border: 1px solid black;
+}
+
+header
+{   
+    height: 70px;
+    background-color: rgb(69, 69, 201);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+ul
+{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 3px;
+    border-radius: 2px;
+    margin: 2px 10px;
+}
+
+.EncabezadoAdmin
+{
+    text-align: center;    
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.banner{
+    height: 21vh;
+    width: 960px;
+    margin:auto;
+}
+
+
+form{
+    text-align: center;
+}
+
+footer
+{
+    background-color: rgb(69, 69, 201);
+}
+
+footer p
+{
+    margin-bottom: 0px;
+}
+
+#Tabla{
+
+    margin-left: 200px;
+}
+
+table
+{
+    border-collapse: collapse;
+    margin-top: 15px;
+    text-align: center;
+}
+
+table,th,td
+{
+    border:1px solid black;
+}
+
+th{
+    background-color: brown;
+}
+
+.oculto{
+
+    display: none;
+}
+
+.visible
+{
+    display: block;
+}
+
+#container
+{   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.container,img{
+
+    width: 50px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .EncabezadoAdmin {
+       display: block !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+	.banner {
+		display: none;
+	}
+	
+	.titul {
+		display: none;
+	}
+}

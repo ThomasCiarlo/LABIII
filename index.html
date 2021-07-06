@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script/script.js" type="module" defer></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- <img src="./images/logo.jpg" alt="logo"> -->
+        <nav>
+            <ul>
+            <li><a href="Nosotros">Nostros</a></li>
+            <li><a href="Anuncios">Anuncios</a></li>
+            <li><a href="Blog">Blog</a></li>
+            <li><a href="Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>Pisteando</h1>
+</header>
+
+<div class="EncabezadoAdmin">
+    <h2 class="titul">Administrador</h2>
+        <img  class="banner" src="images/bannerAdmin.jpg" alt="LogoAdmin">
+</div>
+
+<div class="alert alert-primary oculto" id="Alerta" role="alert">
+    Procesando Accion
+</div>
+
+<form action="">
+    <fieldset>
+        <legend>Informacion Del Anuncio</legend>
+        <input type="hidden" name="id">
+        <input type="text" name="Titulo" placeholder="Titulo" required minlength="4" maxlength="15"><br><br>
+        
+        <h4>Transaccion</h4>
+        <input type="radio" name="Transaccion" value="Venta" checked>Venta <br>
+        <input type="radio" name="Transaccion" value="Alquiler">Alquiler <br><br>
+
+        <h4>Combustible</h4>
+        <input type="checkbox" name="combustible" value="Nafta"> Nafta</label><br>
+        <input type="checkbox" name="combustible" value="GNC"> <label for="cbox2">GNC</label>
+        <input type="checkbox" name="combustible" value="Electrico"> <label for="cbox2">Electrico</label>
+        <br><br>
+
+        <input type="text" name="Descripcion" placeholder="Descripcion" required minlength="5" maxlength="50"><br><br>
+        <input type="text" name="Precio" placeholder="Precio"><br><br>
+    <div id="container">
+        <img src="./images/puertas.PNG" alt="">
+        <input type="text" name="Puertas" placeholder="Puertas" required minlength="1" maxlength="50"><br><br>
+        <img src="./images/km.PNG" alt="">
+        <input type="text" name="KMS" placeholder="KMS" required minlength="1" maxlength="50"><br><br>
+        <img src="./images/iconoPote.PNG" alt="">
+        <input type="text" name="Potencia" placeholder="Potencia" required minlength="1" maxlength="50"><br><br>
+    </div>
+        <input type="submit" id="btnGuardar" value="Guardar">
+        <input type="button" id="btnEliminar" value="Eliminar" class="oculto"><br> <br> 
+    </fieldset>
+</form>
+<div id="spinner-container"></div> 
+<div id="Tabla">
+
+</div>
+
+<footer>
+    <nav>
+        <ul>
+        <li><a href="Nosotros">Nostros</a></li>
+        <li><a href="Anuncios">Anuncios</a></li>
+        <li><a href="Blog">Blog</a></li>
+        <li><a href="Contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <p>Todos los derechos reservados 2020 &copf;</p>
+</footer>
+</body>
+</html>
