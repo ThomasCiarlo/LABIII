@@ -1,0 +1,44 @@
+{
+  "Anuncios": [
+    {
+      "titulo": "Fiat 128",
+      "transaccion": "Venta",
+      "descripcion": "Usado",
+      "precio": "2500000",
+      "puertas": "3",
+      "km": "2500",
+      "potencia": "65",
+      "id": 1624977376651
+    },
+    {
+      "titulo": "Ford Ka",
+      "transaccion": "Alquiler",
+      "descripcion": "Sin Uso",
+      "precio": "550000",
+      "puertas": "3",
+      "km": "12434",
+      "potencia": "63",
+      "id": 1624977376652
+    },
+    {
+      "titulo": "Fiar 128",
+      "transaccion": "Venta",
+      "descripcion": "Sin Uso",
+      "precio": "1234",
+      "puertas": "3",
+      "km": "12434",
+      "potencia": "1000",
+      "id": 1624977376653
+    },
+    {
+      "titulo": "Ford Ka",
+      "transaccion": "Venta",
+      "descripcion": "Usado",
+      "precio": "1234",
+      "puertas": "4",
+      "km": "12434",
+      "potencia": "4",
+      "id": 1624977376656
+    }
+  ]
+}
